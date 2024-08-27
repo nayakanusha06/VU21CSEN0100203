@@ -1,0 +1,78 @@
+/* App.css */
+
+body {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.number-fetcher, .number-display, .average-display {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  margin: 1.5rem 0;
+  padding: 2rem;
+  width: 350px;
+}
+
+select, button {
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: none;
+  margin-right: 0.75rem;
+}
+
+select {
+  background-color: #ffffff;
+  color: #333;
+}
+
+button {
+  background-color: #ff6f61;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e95748;
+  transform: scale(1.05);
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.App-header {
+  background: linear-gradient(135deg, #ff6f61, #e95748);
+  color: white;
+  padding: 1.5rem 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+}
